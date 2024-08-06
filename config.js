@@ -14,12 +14,12 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github = process.env.GITHUB || "https://github.com/HyHamza/BYTE-MD";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l";
+global.gurl = process.env.GURL || "https://chat.whatsapp.com/DOWUAybfsIK3BJlnqkSyVd";
+global.website = process.env.GURL || "https://chat.whatsapp.com/DOWUAybfsIK3BJlnqkSyVd";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/logo.jpg";
 global.devs = "923072380380";
-global.sudo = process.env.SUDO || "923072380380";
-global.owner = process.env.OWNER_NUMBER || "923072380380";
+global.sudo = process.env.SUDO || "923075134110";
+global.owner = process.env.OWNER_NUMBER || "923115971525";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -27,12 +27,12 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/fe157819027c6a7ebeaef.jpg";
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
-global.read_status = process.env.AUTO_READ_STATUS || "false";
+global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "all";
 global.read_status_from = process.env.READ_STATUS_FROM || "all";
@@ -79,10 +79,10 @@ module.exports = {
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "*Powered By TalkDrove*",
-  author: process.env.PACK_AUTHER || "TalkDrove",
-  packname: process.env.PACK_NAME || "♥️",
+  author: process.env.PACK_AUTHER || "MY OWNER Create by MR.YOUSAF KHAN BALOCH 03115971525 ",
+  packname: process.env.PACK_NAME || "♥️Mr.YOUSAF MUSA KHAN",
   botname: process.env.BOT_NAME || "BYTE-MD",
-  ownername: process.env.OWNER_NAME || "TalkDrove",
+  ownername: process.env.OWNER_NAME || "MR.YOUSAF BALOCH",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
